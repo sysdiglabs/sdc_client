@@ -1,0 +1,11 @@
+
+envs:
+    main:
+        monitor_token: "" # Add here your monitor token
+        secure_token: "" # Add here your secure token
+        monitor_url: "" # Add here the monitor url or remove it if you don't use it on prem
+        secure_url: "" # Add here the secure url or remove it if you don't use it on prem
+
+    other: # Another environment
+        monitor_token: ""
+        secure_token: ""

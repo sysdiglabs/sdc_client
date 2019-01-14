@@ -1,0 +1,11 @@
+version: '3'
+services:
+  sdc:
+    container_name: sdc
+    image: sdc
+    build: .
+    tty: true
+    stdin_open: true
+    volumes:
+      - ./sdc_client.yml:/sdc_client.yml:ro
+      - ./data:/data
